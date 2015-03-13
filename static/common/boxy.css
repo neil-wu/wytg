@@ -1,0 +1,17 @@
+.boxy-wrapper { position: absolute;}
+.boxy-wrapper.fixed { position: fixed; }
+.boxy-modal-blackout { position: absolute; background-color: black; left: 0; top: 0; }
+.boxy-modal-blackout{　
+	background:transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fad59f, endColorstr=#fa9907);    
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#fad59f, endColorstr=#fa9907)";
+}
+.boxy-wrapper { empty-cells: show; }
+.boxy-wrapper .title-bar { background:url("images/box_title_bg.gif") repeat-x scroll 0 0 transparent; border-bottom:1px solid #2D7218; line-height:25px; padding:6px; position:relative; }
+.boxy-wrapper .title-bar.dragging { cursor: move; }
+.boxy-wrapper .title-bar h2 { text-align:left; font-size: 14px; color: #ffffff; line-height: 1; margin: 0; padding: 0; font-weight: bold; }
+.boxy-wrapper .title-bar .close { text-indent: -99em; background:url("images/close1.jpg") no-repeat scroll 0 0 transparent; position: absolute; top: 0; right: 6px; height:21px; overflow:hidden; width:31px; }
+.boxy-wrapper .title-bar .close:hover { background:url("images/close2.jpg") no-repeat scroll 0 0 transparent; }
+.boxy-inner { background-color: white; padding: 0; border:1px solid #2D7218; }
+.boxy-content { padding: 15px; }
+
