@@ -5,8 +5,9 @@
 
 ##使用方法
 1. 安装配置环境为 Linux+Apache+PHP(版本5.0及以上)+MySQL(版本5.1及以上)，需要openssl、rewirte支持（WoodyApp提供付费安装配置服务）。
-2. [开通淘宝开放平台] (http://open.taobao.com)，创建应用，申请服务（注意：本程序申请淘宝开放平台的服务，可能要购买阿里云等相关的付费服务），需要3个工作日的审核，审核后方能上线。
+2. [开通淘宝开放平台] (http://open.taobao.com)，创建应用，申请服务（注意：本程序申请淘宝开放平台的服务，可能要购买阿里云等相关的付费服务），需要3个工作日的审核，审核后方能上线。回调地址为：http://你的域名/login/callback
 3. 卖家需要开通淘宝店铺，并且店铺内有可以出售的商品，登录`WYTG`，添加商品和卡密等相关设置。
+4. 程序管理后台目录 /adm ，账号admin 密码admini。
 
 ##开源协议
 `WYTG`遵循GNU General Public Licence，详细阅读 http://opensource.org/licenses/gpl-2.0.php
